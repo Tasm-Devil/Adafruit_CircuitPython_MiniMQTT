@@ -55,7 +55,7 @@ MQTT_MSG_SZ_LIM = const(10000000)
 MQTT_TOPIC_LENGTH_LIMIT = const(65535)
 MQTT_TCP_PORT = const(1883)
 MQTT_TLS_PORT = const(8883)
-MQTT_WSS_PORT = const(8083)
+MQTT_WSS_PORT = const(8083) # Use port 443 for adafruit.io
 TCP_MODE = const(0)
 TLS_MODE = const(2)
 
